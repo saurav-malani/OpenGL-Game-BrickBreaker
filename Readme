@@ -1,0 +1,5 @@
+compile using make
+run using "./main"
+
+
+Note : If make does not run, replace the contents of makefile with makefile_osx

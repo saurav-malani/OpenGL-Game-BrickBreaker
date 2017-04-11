@@ -1,0 +1,2 @@
+Game : main.cpp wm.cpp gc.cpp gm.cpp go.cpp
+	clang++ main.cpp wm.cpp gc.cpp gm.cpp go.cpp -o main -lGLFW -lGLEW -I/opt/local/include/SOIL/ -L/opt/local/lib/ -lSOIL -framework OpenGL -framework Cocoa -std=c++11 -stdlib=libc++
